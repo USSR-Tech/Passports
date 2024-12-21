@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    color: white;
+    outline: none;
+    background-color: rgb(27, 27, 27);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+h2{
+    font-weight: 100;
+}
+
+.header{
+    font-family: helvetica;
+    font-size: 100px;
+}
+
+.container{
+    box-shadow: 0px 0px 2.5px white;
+    border: solid transparent;
+    border-radius: 2.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+}
+
+.btnmember{
+    color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+    border: solid transparent;
+    box-shadow: 0px 0px 1px white;
+    background-color: royalblue;
+    font-weight: bold;
+    font-size: 25px;
+    width: 25%;
+    opacity: 75%;
+    transition: all 0.1s ease-in-out;
+}
+
+.btnmember:hover{
+    transition: all 0.1s ease-in-out;
+    opacity: 100%;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.btnadmin{
+    transition: all 0.1s ease-in-out;
+    color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+    border: solid transparent;
+    box-shadow: 0px 0px 1px white;
+    background-color: rgb(225, 65, 65);
+    font-weight: bold;
+    font-size: 25px;
+    width: 25%;
+    opacity: 75%;
+}
+
+.btnadmin:hover{
+    transition: all 0.1s ease-in-out;
+    opacity: 100%;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.checkmark{
+    color: lightgreen;
+    font-size: 150px;
+}

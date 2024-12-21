@@ -1,0 +1,160 @@
+body{
+    outline: none;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+#header{
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    margin-left: 10%;
+    font-size: 50px;
+    text-align: left;
+}
+
+#container{
+    box-shadow: 0px 0px 2.5px white;
+    padding: 25px;
+    border-radius: 2.5px;
+    border: solid transparent;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#tag{
+    font-size: 25px;
+}
+
+.textfield{
+    text-align: center;
+    width: 75%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid white;
+    font-size: 25px;
+    outline: none;
+    color: white;
+    opacity: 50%;
+    transition: all 0.1s ease-in-out;
+}
+
+.textfield:hover{
+    transition: all 0.1s ease-in-out;
+    opacity: 100%;
+    border-radius: 10px;
+}
+
+#send{
+    color: white;
+    margin-left: 10px;
+    font-size: larger;
+    background-color: royalblue;
+    border-radius: 2.5px;
+    outline: none;
+    border: solid transparent;
+    font-weight: bold;
+    width: 15%;
+    box-shadow: 0px 0px 2.5px royalblue;
+    transition: all 0.1s ease-in-out;
+}
+
+#send:hover{
+    opacity: 50%;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+footer{
+    position: fixed;
+    position: 0, 0;
+}
+
+#login{
+    color: white;
+    font-size: xx-large;
+    background-color: rgb(207, 38, 38);
+    border: solid transparent;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    width: 20%;
+    font-weight: bold;
+}
+
+#login:hover{
+    width: 25%;
+    transition: all 0.1s ease-in-out;
+    opacity: 50%;
+    border-radius: 10px;
+}
+
+.btn{
+    color: white;
+    font-size: xx-large;
+    background-color: transparent;
+    border: solid white;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    width: 40%;
+}
+
+.btn:hover{
+    width: 50%;
+    transition: all 0.1s ease-in-out;
+    opacity: 50%;
+    border-radius: 10px;
+}
+
+.disc{
+    box-shadow: 0px 0px 2.5px white;
+    padding: 25px;
+    border-radius: 2.5px;
+    border: solid transparent;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: maroon;
+    box-shadow: 0px 0px 0px;   
+}
+
+.ccp{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+.ccpw{
+    text-shadow: 0px 0px 10px rgb(219, 186, 0);
+    font-size: 75px;
+    font-style: underline gold;
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+
+.discW{
+    box-shadow: 0px 0px 2.5px white;
+    padding: 25px;
+    border-radius: 2.5px;
+    border: solid transparent;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+    box-shadow: 0px 0px 0px;   
+}
+
+.textfield1{
+    text-align: center;
+    width: 75%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid black;
+    font-size: 25px;
+    outline: none;
+    color: black;
+    transition: all 0.1s ease-in-out;
+}

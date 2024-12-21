@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    color: white;
+    outline: none;
+    background-color: rgb(27, 27, 27);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.block{
+    color: red;
+    font-size: 150px;
+}
+
+.header{
+    font-size: 50px;
+}

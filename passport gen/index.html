@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" id="meta">
+<head>
+    <link rel="icon" type="image/x-icon" href="star.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USSR Passports</title>
+</head>
+<body onload="update()">
+    
+<br>
+<br>
+<br>
+<br>
+
+<h1 id="header">USSR Welcomes</h1>
+
+<div id="container">
+    <label id="tag">Username: <input oninput="update()" type="text" min="3" max="28" class="textfield" id="username" placeholder="Register at #reg"></label> <br> <br>
+    <label id="tag">Password: <input type="password" class="textfield" id="password" placeholder="At #reg"></label> <br> <br>
+    <label id="tag">OTP: <input type="number" class="textfield" id="otptoreg" placeholder="Check #loginotp"><button onclick="sendOTP()" id="send">Send</button></label>    
+</div>
+
+<br>
+
+<button id="login" onclick="login()" >LOGIN</button>
+
+</body>
+</html>

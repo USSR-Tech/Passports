@@ -444,7 +444,7 @@ function gen(username) {
 </html>`
 
 
-let gen1 = "https://discord.com/api/webhooks/1256868438694039572/mg7_8T7FVSbzQU7aC_JxtfT902m5xm1AdXYEmFk7FEeFGtUzKDJpcGOZoQdn4N78TpFC"
+let gen1 = "https://discord.com/api/webhooks/1320339647452151912/cD_bNtbvztS1yGdqjcBj-fVYJdsgQ2T8xelD55BgmX24DClidRoFh0aH75M33Qn99Eeq"
 const contents = `A New Passport Was Generated\nName: **${name}**\nAge: **${age}**\nNation: **${nation}**\nGender: **${gender}**\nPfp Desc: **${pfp}**\nRank: **${rank}**\nSector: **${sector}**\nAuth/Gen By: **${username}**\n`
 const request = new XMLHttpRequest();
 request.open("POST", gen1);
